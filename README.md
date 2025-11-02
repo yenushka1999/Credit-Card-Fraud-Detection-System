@@ -151,10 +151,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-👤 Author
-
-Your Name**
-- GitHub: [@YOUR_USERNAME](https://github.com/yenushka1999)
 
  🙏 Acknowledgments
 
