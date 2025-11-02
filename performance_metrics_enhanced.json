@@ -1,0 +1,19 @@
+{
+    "test_accuracy": 0.938061938061938,
+    "test_precision": 0.0,
+    "test_recall": 0.0,
+    "test_f1_score": 0.0,
+    "test_auc": 0.4654433201852169,
+    "confusion_matrix": [
+        [
+            939,
+            13
+        ],
+        [
+            49,
+            0
+        ]
+    ],
+    "false_negative_rate": 1.0,
+    "false_positive_rate": 0.01365546218487395
+}
