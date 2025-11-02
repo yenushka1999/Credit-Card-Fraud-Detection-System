@@ -1,4 +1,4 @@
-# Credit Card Fraud Detection System
+Credit Card Fraud Detection System
 
 A machine learning-powered web application for detecting fraudulent credit card transactions in real-time. Built with Streamlit and advanced ML models including XGBoost.
 
