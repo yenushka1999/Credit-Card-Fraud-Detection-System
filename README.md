@@ -2,21 +2,24 @@
 
 A machine learning-powered web application for detecting fraudulent credit card transactions in real-time. Built with Streamlit and advanced ML models including XGBoost.
 
-## 🚀 Live Demo
+🚀 Live Demo
 
-**Access the application:** [http://192.168.1.2:8501](http://192.168.1.2:8501)
+1.Access the application:** [http://192.168.1.2:8501](http://192.168.1.2:8501)
 
-> Note: This URL is accessible on your local network. For public deployment, consider using Streamlit Cloud or other hosting services.
+> Note: This URL is accessible on your local network.
 
-## 📋 Features
+2.https://huggingface.co/spaces/yenushka/credit-card-fraud-detection
+> above URL can be used by public to view the model hosting public deployment
 
-- **Real-time Fraud Detection**: Analyze transactions instantly with ML-powered predictions
-- **Transaction Analysis**: Comprehensive evaluation based on transaction and behavioral features
-- **Probability Scoring**: Get fraud probability percentages for each transaction
-- **Detailed Explanations**: Understand why a transaction was flagged as fraudulent
-- **Interactive Dashboard**: User-friendly Streamlit interface for easy data input and visualization
+ 📋 Features
 
-## 🛠️ Technologies Used
+- Real-time Fraud Detection**: Analyze transactions instantly with ML-powered predictions
+- Transaction Analysis**: Comprehensive evaluation based on transaction and behavioral features
+- Probability Scoring**: Get fraud probability percentages for each transaction
+- Detailed Explanations**: Understand why a transaction was flagged as fraudulent
+- Interactive Dashboard**: User-friendly Streamlit interface for easy data input and visualization
+
+🛠️ Technologies Used
 
 - **Python 3.12**
 - **Streamlit**: Web application framework
@@ -25,9 +28,9 @@ A machine learning-powered web application for detecting fraudulent credit card 
 - **NumPy & Pandas**: Data manipulation
 - **Joblib**: Model serialization
 
-## 📁 Project Structure
+ 📁 Project Structure
 
-```
+
 FRAUD_DETECTION_PROJECT/
 ├── data/
 │   ├── behavioral_sample.csv
@@ -48,48 +51,47 @@ FRAUD_DETECTION_PROJECT/
 ├── venv/
 ├── app.py
 └── requirements.txt
-```
 
-## 🔧 Installation
 
-### Prerequisites
+🔧 Installation
+
+ Prerequisites
 
 - Python 3.8 or higher
 - pip package manager
 - Virtual environment (recommended)
 
-### Setup Steps
+ Setup Steps
 
 1. **Clone the repository**
 ```bash
 git clone https://github.com/YOUR_USERNAME/Credit-Card-Fraud-Detection-System.git
 cd Credit-Card-Fraud-Detection-System
-```
 
-2. **Create a virtual environment**
+
+2 Create a virtual environment**
 ```bash
 python -m venv venv
 
-# On Windows
+On Windows
 venv\Scripts\activate
-
-# On macOS/Linux
+ On macOS/Linux
 source venv/bin/activate
 ```
 
-3. **Install dependencies**
+3. Install dependencies**
 ```bash
 pip install -r requirements.txt
 ```
 
-4. **Run the application**
+4. Run the application**
 ```bash
 streamlit run app.py
 ```
 
 The application will open in your default browser at `http://localhost:8501`
 
-## 📦 Requirements
+📦 Requirements
 
 ```
 streamlit
@@ -100,7 +102,7 @@ numpy
 joblib
 ```
 
-## 🎯 Usage
+ 🎯 Usage
 
 1. Launch the application using `streamlit run app.py`
 2. Input transaction features including:
@@ -110,14 +112,14 @@ joblib
 3. Click "Analyze Transaction" to get predictions
 4. Review the fraud probability and detailed explanations
 
-### Example Transaction Analysis
+Example Transaction Analysis
 
 The system analyzes transactions based on:
 - **Amount thresholds**: Flags high-value transactions (>$500, >$1000)
 - **Feature patterns**: Detects anomalies in transaction characteristics
 - **Behavioral indicators**: Identifies unusual user behavior patterns
 
-## 🧠 Model Information
+🧠 Model Information
 
 The fraud detection system uses an XGBoost classifier trained on credit card transaction data. The model provides:
 
@@ -125,17 +127,17 @@ The fraud detection system uses an XGBoost classifier trained on credit card tra
 - Probability scores for risk assessment
 - Feature-based explanations for predictions
 
-### Model Performance
+ Model Performance
 
 Model metrics are stored in `models/performance_metrics_enhanced.json` and include accuracy, precision, recall, and F1-score.
 
-## 🔒 Security & Privacy
+🔒 Security & Privacy
 
 - All transaction data is processed locally
 - No data is stored or transmitted to external servers
 - Models are pre-trained and loaded from disk
 
-## 🤝 Contributing
+🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -145,24 +147,24 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📝 License
+📝 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 👤 Author
+👤 Author
 
-**Your Name**
-- GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
+Your Name**
+- GitHub: [@YOUR_USERNAME](https://github.com/yenushka1999)
 
-## 🙏 Acknowledgments
+ 🙏 Acknowledgments
 
 - Credit card transaction dataset providers
 - Streamlit community for the excellent framework
 - XGBoost developers for the powerful ML library
 
-## 📧 Contact
+ 📧 Contact
 
-For questions or support, please open an issue on GitHub or contact [your-email@example.com]
+For questions or support, please open an issue on GitHub or contact [kalindiyenushka@gmail.com]
 
 ---
 
