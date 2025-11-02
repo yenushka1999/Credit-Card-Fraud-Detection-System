@@ -1,0 +1,11 @@
+{
+    "xgb_max_depth": 6,
+    "xgb_learning_rate": 0.1,
+    "xgb_n_estimators": 500,
+    "xgb_min_child_weight": 1,
+    "xgb_gamma": 0,
+    "xgb_subsample": 0.8,
+    "xgb_colsample_bytree": 0.8,
+    "xgb_scale_pos_weight": 19.22543352601156,
+    "random_state": 42
+}
